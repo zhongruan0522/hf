@@ -2,7 +2,7 @@ import { parse } from "https://deno.land/std@0.182.0/flags/mod.ts";
 import { serve } from "https://deno.land/std@0.182.0/http/server.ts";
 
 const DEFAULT_PORT = 8080;
-const TARGET_HOST = "open-webui-open-webui.hf.space";
+const TARGET_HOST = "zhongruan-openwebui.hf.space";
 
 function log(message: string) {
   console.log(`[${new Date().toISOString()}] ${message}`);
